@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#DDC1ED"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollview2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtbukhara"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:layout_marginStart="150dp"
+                android:fontFamily="@font/aref_ruqaa"
+                android:text="@string/bukhara"
+                android:textColor="#2A0043"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgbukhara"
+                android:layout_width="match_parent"
+                android:layout_height="213dp"
+                android:layout_below="@+id/txtbukhara"
+                android:layout_marginTop="-5dp"
+                app:srcCompat="@drawable/bukhara" />
+
+            <TextView
+                android:id="@+id/txtaboutofbukhara"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/About"
+                android:textColor="#010A4A"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtaboutinfobukhara"
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:layout_alignParentBottom="true"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/bukharatext"
+                android:textColor="#190029"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtlocationofbukhara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/addressofbukhara"
+                android:textColor="#10013C"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_baseline_location_on_24" />
+
+            <TextView
+                android:id="@+id/txtphoneofbukhara"
+                android:layout_width="405dp"
+                android:layout_height="34dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:gravity="center|start"
+                android:text="@string/phoneofbukhara"
+                android:textColor="#10013C"
+                app:drawableStartCompat="@drawable/ic_baseline_call_24" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="290dp">
+
+
+                <TextView
+                    android:id="@+id/txtpriceofbukhara"
+                    android:layout_width="535dp"
+                    android:layout_height="33dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginEnd="79dp"
+                    android:layout_marginBottom="246dp"
+                    android:layout_toStartOf="@+id/txtpricerangeofbukhara"
+                    android:text="@string/PRICERANGE"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtpricerangeofbukhara"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="73dp"
+                    android:layout_marginBottom="262dp"
+                    android:text="@string/priceofbukhara"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtbukharacuisines"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginEnd="64dp"
+                    android:layout_marginBottom="220dp"
+                    android:layout_toStartOf="@+id/txtcuisinesnameofbukhara"
+                    android:text="@string/cuisines"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtcuisinesnameofbukhara"
+                    android:layout_width="159dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="218dp"
+                    android:text="@string/cuisinesofbukhara"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtspecialdiets"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="57dp"
+                    android:layout_marginBottom="174dp"
+                    android:layout_toStartOf="@+id/txtspecialdeitsname"
+                    android:text="@string/specialdiets"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtspecialdeitsname"
+                    android:layout_width="146dp"
+                    android:layout_height="58dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="144dp"
+                    android:text="@string/Specialdietsofbukhara"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtmealofbukhara"
+                    android:layout_width="117dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="88dp"
+                    android:layout_marginBottom="106dp"
+                    android:layout_toStartOf="@+id/txtmealsnameofbukhara"
+                    android:text="@string/meals"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtmealsnameofbukhara"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="84dp"
+                    android:layout_marginBottom="116dp"
+                    android:text="@string/mealsofbukhara"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtfeaturesofbukhara"
+                    android:layout_width="104dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginBottom="35dp"
+                    android:layout_toStartOf="@+id/txtfeaturesnameofbukhara"
+                    android:text="@string/features"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtfeaturesnameofbukhara"
+                    android:layout_width="176dp"
+                    android:layout_height="102dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="11dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="@string/featuresofbukhara"
+                    android:textColor="#10013C" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txtsagar"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:layout_marginStart="120dp"
+                android:fontFamily="@font/aref_ruqaa"
+                android:text="@string/sagarratna"
+
+                android:textColor="#2A0043"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgsagar"
+                android:layout_width="match_parent"
+                android:layout_height="213dp"
+                android:layout_below="@+id/txtsagar"
+                android:layout_marginTop="-5dp"
+                app:srcCompat="@drawable/sagarratna" />
+
+            <TextView
+                android:id="@+id/txtaboutofsagar"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/About"
+                android:textColor="#010A4A"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtaboutinfosagar"
+                android:layout_width="match_parent"
+                android:layout_height="136dp"
+                android:layout_alignParentBottom="true"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/sagartext"
+                android:textColor="#190029"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtlocationofsagar"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:text="@string/addressofsagar"
+                android:textColor="#10013C"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_baseline_location_on_24" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="256dp">
+
+                <TextView
+                    android:id="@+id/txtsagarcuisines"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="67dp"
+                    android:layout_marginBottom="202dp"
+                    android:layout_toStartOf="@+id/txtcuisinesnameofsagar"
+                    android:text="@string/cuisinessagar"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtcuisinesnameofsagar"
+                    android:layout_width="159dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="38dp"
+                    android:layout_marginBottom="201dp"
+                    android:text="@string/cuisinesofsagar"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtspecialdietssagar"
+                    android:layout_width="99dp"
+                    android:layout_height="26dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="157dp"
+                    android:layout_toStartOf="@+id/txtspecialdeitsnamesagar"
+                    android:text="@string/specialdietssagar"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtspecialdeitsnamesagar"
+                    android:layout_width="206dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginBottom="140dp"
+                    android:text="@string/Specialdietsofsagar"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtmealofsagar"
+                    android:layout_width="117dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginEnd="89dp"
+                    android:layout_marginBottom="112dp"
+                    android:layout_toStartOf="@+id/txtmealsnameofsagar"
+                    android:text="@string/mealssagar"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtmealsnameofsagar"
+                    android:layout_width="205dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="11dp"
+                    android:layout_marginBottom="115dp"
+                    android:text="@string/mealsofsagar"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtfeaturesofsagar"
+                    android:layout_width="104dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="51dp"
+                    android:layout_marginBottom="56dp"
+                    android:layout_toStartOf="@+id/txtfeaturesnameofsagar"
+                    android:text="@string/featuressagar"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtfeaturesnameofsagar"
+                    android:layout_width="215dp"
+                    android:layout_height="46dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="-1dp"
+                    android:layout_marginBottom="56dp"
+                    android:text="@string/featuresofsagar"
+                    android:textColor="#10013C" />
+            </RelativeLayout>
+
+
+            /*Indian Acient*/
+
+            <TextView
+                android:id="@+id/txtindian"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:layout_marginStart="120dp"
+                android:fontFamily="@font/aref_ruqaa"
+                android:text="@string/indian"
+                android:textColor="#2A0043"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgindian"
+                android:layout_width="match_parent"
+                android:layout_height="213dp"
+                android:layout_below="@+id/txtindian"
+                android:layout_marginTop="-5dp"
+                app:srcCompat="@drawable/inidanacient" />
+
+            <TextView
+                android:id="@+id/txtaboutofindian"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/Aboutindian"
+                android:textColor="#010A4A"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtaboutinfoindian"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_alignParentBottom="true"
+                android:text="@string/indiantext"
+                android:textColor="#190029"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtlocationofindian"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:text="@string/addressofindian"
+                android:textColor="#10013C"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_baseline_location_on_24" />
+
+            <TextView
+                android:id="@+id/txtphoneofindian"
+                android:layout_width="405dp"
+                android:layout_height="34dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:gravity="center|start"
+                android:text="@string/phoneofindian"
+                android:textColor="#10013C"
+                app:drawableStartCompat="@drawable/ic_baseline_call_24" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="496dp">
+
+
+                <TextView
+                    android:id="@+id/txtpriceofindian"
+                    android:layout_width="500dp"
+                    android:layout_height="46dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginBottom="427dp"
+                    android:layout_toStartOf="@+id/txtpricerangeofindian"
+                    android:text="@string/PRICERANGE"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtpricerangeofindian"
+                    android:layout_width="153dp"
+                    android:layout_height="102dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="415dp"
+                    android:text="@string/priceofindian"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtindiancuisines"
+                    android:layout_width="681dp"
+                    android:layout_height="46dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginEnd="52dp"
+                    android:layout_marginBottom="349dp"
+                    android:layout_toStartOf="@+id/txtcuisinesnameofindian"
+                    android:text="@string/cuisinessagar"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtcuisinesnameofindian"
+                    android:layout_width="159dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginBottom="370dp"
+                    android:text="@string/cuisinesofindian"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtspecialdietsindian"
+                    android:layout_width="678dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="55dp"
+                    android:layout_marginBottom="272dp"
+                    android:layout_toStartOf="@+id/txtspecialdeitsnameindian"
+                    android:text="@string/specialdietsofindian"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtspecialdeitsnameindian"
+                    android:layout_width="141dp"
+                    android:layout_height="78dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="49dp"
+                    android:layout_marginBottom="260dp"
+                    android:text="@string/Specialdietsofindian"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtmealofindian"
+                    android:layout_width="676dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginEnd="59dp"
+                    android:layout_marginBottom="199dp"
+                    android:layout_toStartOf="@+id/txtmealsnameofindian"
+                    android:text="@string/mealsindian"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtmealsnameofindian"
+                    android:layout_width="205dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="-5dp"
+                    android:layout_marginBottom="205dp"
+                    android:text="@string/mealsofindian"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtfeaturesofindian"
+                    android:layout_width="104dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginEnd="55dp"
+                    android:layout_marginBottom="133dp"
+                    android:layout_toStartOf="@+id/txtfeaturesnameofindian"
+                    android:text="@string/featuresindian"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtfeaturesnameofindian"
+                    android:layout_width="178dp"
+                    android:layout_height="158dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="21dp"
+                    android:layout_marginBottom="32dp"
+                    android:text="@string/featuresofindian"
+                    android:textColor="#10013C" />
+
+            </RelativeLayout>
+
+            //karmiskitchen
+
+            <TextView
+                android:id="@+id/txtkarma"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:layout_marginStart="120dp"
+                android:fontFamily="@font/aref_ruqaa"
+                android:text="@string/karim"
+                android:textColor="#2A0043"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/imgkarim"
+                android:layout_width="match_parent"
+                android:layout_height="213dp"
+                android:layout_below="@+id/txtindian"
+                android:layout_marginTop="-5dp"
+                app:srcCompat="@drawable/karims" />
+
+            <TextView
+                android:id="@+id/txtaboutofkarim"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/Aboutindian"
+                android:textColor="#010A4A"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtaboutinfoofkarim"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentBottom="true"
+                android:text="@string/karimtext"
+                android:textColor="#190029"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtlocationofkarim"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:text="@string/addressofkarim"
+                android:textColor="#10013C"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_baseline_location_on_24" />
+
+
+
+            <TextView
+                android:id="@+id/txtphoneofkarim"
+                android:layout_width="405dp"
+                android:layout_height="34dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:gravity="center|start"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/phoneofkarim"
+                android:textColor="#10013C"
+                app:drawableStartCompat="@drawable/ic_baseline_call_24" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="290dp">
+
+                <TextView
+                    android:id="@+id/txtpriceofkarim"
+                    android:layout_width="334dp"
+                    android:layout_height="26dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="84dp"
+                    android:layout_marginBottom="610dp"
+                    android:text="@string/PRICERANGEkarim"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtpricerangeofkarim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="81dp"
+                    android:layout_marginBottom="262dp"
+                    android:text="@string/priceofkarim"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtkarimcuisines"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/txtspecialdietskarim"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginBottom="51dp"
+                    android:text="@string/cuisineskarim"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtcuisinesnameofkarim"
+                    android:layout_width="159dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginBottom="213dp"
+                    android:text="@string/cuisinesofkarim"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtspecialdietskarim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginEnd="62dp"
+                    android:layout_marginBottom="150dp"
+                    android:layout_toStartOf="@+id/txtspecialdeitsnamekarim"
+                    android:text="@string/specialdietskarim"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtspecialdeitsnamekarim"
+                    android:layout_width="149dp"
+                    android:layout_height="103dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="39dp"
+                    android:layout_marginBottom="96dp"
+                    android:text="@string/Specialdietsofkarim"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtmealofkarim"
+                    android:layout_width="117dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="89dp"
+                    android:layout_marginBottom="65dp"
+                    android:layout_toStartOf="@+id/txtmealsnameofkarim"
+                    android:text="@string/mealskarim"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtmealsnameofkarim"
+                    android:layout_width="155dp"
+                    android:layout_height="33dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginBottom="58dp"
+                    android:text="@string/mealsofkarim"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtaboutinfokarim"
+                    android:layout_width="match_parent"
+                    android:layout_height="154dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="856dp"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/karimtext"
+                    android:textColor="#190029"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

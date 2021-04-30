@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DDC1ED"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgakshardham"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:paddingStart="5dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="5dp"
+                app:srcCompat="@drawable/akshardham" />
+
+            <TextView
+                android:id="@+id/txtakshardham"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/akshardhamtext"
+                android:textColor="#190029"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtmore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textmore"
+                android:textColor="#190029"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgindiagate"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:paddingStart="5dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="5dp"
+                app:srcCompat="@drawable/indiagate" />
+
+            <TextView
+                android:id="@+id/txtindiagate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/indiagatetext"
+                android:textColor="#190029"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtmore1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textmore1"
+                android:textColor="#190029"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgjamamasjid"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:paddingStart="5dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="5dp"
+                app:srcCompat="@drawable/jamamasjid" />
+
+            <TextView
+                android:id="@+id/txtjamamasjid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/jamamasjidtext"
+                android:textColor="#190029"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtmore2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textmore2"
+                android:textColor="#190029"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgredfort"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:paddingStart="5dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="5dp"
+                app:srcCompat="@drawable/redfort" />
+
+            <TextView
+                android:id="@+id/txtredfort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/redforttext"
+                android:textColor="#190029"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtmore3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textmore3"
+                android:textColor="#190029"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgqutubminar"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:paddingStart="5dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="5dp"
+                app:srcCompat="@drawable/qutubminar" />
+
+            <TextView
+                android:id="@+id/txtqutubminar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/qutubminartext"
+                android:textColor="#190029"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtmore4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textmore4"
+                android:textColor="#190029"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/lotustemple"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:paddingStart="5dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="5dp"
+                app:srcCompat="@drawable/lotustemple" />
+
+            <TextView
+                android:id="@+id/txtlotustemple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/lotustempletext"
+                android:textColor="#190029"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtmore5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textmore5"
+                android:textColor="#190029"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

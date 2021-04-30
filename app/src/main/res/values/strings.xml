@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">Travel Tourist Guide</string>
+    <string name="logintravel">Lets travel together in INDIA</string>
+    <string name="login">Log In</string>
+    <string name="username">Username</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="signin">Sign In</string>
+    <string name="registerpage">Signin</string>
+    <string name="registered">Registered</string>
+    <string name="loginlogo">Login</string>
+    <string name="forgotpassword">forgot password??</string>
+    <string name="loginbutton">Login</string>
+    <string name="google_button">Google</string>
+    <string name="facebookbutton">Facebook</string>
+    <string name="signupinlogin">Signup</string>
+    <string name="noaccountinloginform">Dont have an Account??</string>
+    <string name="haveaccount">Already have an Account??</string>
+    <string name="login_insigninform">Login</string>
+    <string name="Spinner_form">Choose a city</string>
+    <array name="division">
+        <item>City</item>
+        <item>Delhi</item>
+        <item>Rajasthan</item>
+        <item>Gujrat</item>
+        <item>Himachal Pradesh</item>
+    </array>
+    <string name="delhi">The capital of India, New Delhi is often said to be “Dilwaalon ki Dilli”, a place wherein people have contented hearts and lively nature. The numerous facts about Delhi not only stem from its large number of ancient and historical artefacts but also since it is home to all the three branches of Government of India. With its long history of empire successions from the Delhi Sultanate to Mughals and then the British, the city at present stands as one of the fastest developing cities in the world. Delhi is loved by the tourists as well as its inhabitants for it is a city of the wise and the spice!</string>
+    <string name="imagesforslideshow">image</string>
+    <string name="title_activity_delhi">delhi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_text_1">About</string>
+    <string name="tab_text_2">Places</string>
+    <string name="tab_text_3">Restaurants</string>
+    <string name="tab_text_4">Hotels</string>
+    <string name="akshardhamtext">Among the temples in Delhi, Akshardham Temple or Swaminarayan Akshardham Complex is amazingly famous as it is known to be a spiritual and cultural campus in Delhi and also one of the famous places to visit in east Delhi. This complex showcases the traditional Hindu and Indian culture, spirituality and architecture. Tourists from all over the world come to Delhi </string>
+    <string name="textmore">More.....</string>
+    <string name="indiagatetext">India Gate is an important site to visit when on your tour to Delhi. India Gate has its original name as All India War Memorial that was built in order to commemorate the 82000 soldiers of the Indian Army who lost their lives during the First World War happened from 1914 to 1921 as well as in the Third Anglo-Afghan War. The war memorial is situated at Rajpath where you can reach by getting down at Barakhamba Road Metro station in Delhi. India gate is also known to be one of the best places to visit with friends in Delhi.</string>
+    <string name="textmore1">More.....</string>
+    <string name="redforttext">When the fort was built by the Mughal Emperor Shah Jahan in 1648, it was white in colour – built with sandstones. Not only did the name, but the colour of the fort was also changed to red. All of it took place at the behest of the British. The Red Fort was originally made of lime stones. It was when the white stone began chipping off, the British had to paint it with red.It was originally known as “Qila-e-Mubarak”. This name simplifies to “The Blessed Fort”. According to sources Shah Jahan built this fort when he made a </string>
+    <string name="textmore2">More.....</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="jamamasjidtext">Jama Masjid is, currently, the largest mosque in the world and has the capacity to accommodate a whopping 25000 people in its courtyard, and a total of 85000 people on its premises. And yes, the spectacle of such a vast number praying here, especially on Eid, can make for a lifetime’s memory.ama Masjid stands as one of the most remarkable structures in the Indian capital, and also has massive religious significance for the followers of Islam. If you have walked the lanes of Old Delhi, there is no way you have missed </string>
+    <string name="textmore3">More.....</string>
+    <string name="qutubminartext">The Qutub Minar is surrounded by several great historical monuments and all of them together are referred to as "Qutb Complex". The complex includes: Iron Pillar of Delhi, Quwwat-ul-Islam Mosque, Alai Darwaza, the Tomb of Iltutmish, Alai Minar, Ala-ud-dins Madrasa and Tomb,the Tomb of Imam Zamin, Major Smiths Cupola and Sandersons Sundial.The top floor of the minar was destructed by the lightning and rebuilt by Firoz Shah Tughlaq. These floors are quite distinguishable from the rest of the minar as they are made up of white marble.</string>
+    <string name="textmore4">More.....</string>]
+    <string name="lotustempletext">The Lotus Temple also known as the Bahai House of Worship or Bahai Mashriqul-Adhkar Temple is one of the best architectural marvels in the country in modern times. The white marble structure is also called the Taj Mahal of the 20th century but it is so much more than just a splendid piece of architecture. It is a place where several visitors from all across the globe come for peace, meditation, prayers and study.It is known for its beautiful flower-like architecture and marvelous ambiance that make it a popular tourist attraction for people of all faiths. The Bahai Lotus Temple is one of the world’s most beautiful religious buildings </string>
+    <string name="textmore5">More.....</string>
+
+    <string name="bukhara">Bukhara</string>
+    <string name="bukharatext">Bukhara proves to be, without a doubt, the mother of all authentic Indian food experiences. The signature (and massive) hot naans and malai kebabs join the slow-cooked dal bukhara in taking your palate on a journey that will delight. You’re also encouraged to eat with your hands within the earthy and rustic interiors</string>
+    <string name="About">About</string>
+    <string name="addressofbukhara">ITC Maurya, Sardar Patel Marg, Akhaura Block, Diplomatic Enclave, Chanakyapuri, New Delhi, Delhi 110021 </string>
+    <string name="phoneofbukhara">   011 4621 5124</string>
+    <string name="PRICERANGE">PRICE RANGE</string>
+    <string name="priceofbukhara">Rs.363-Rs.7,262</string>
+    <string name="cuisines">CUISINES</string>
+    <string name="cuisinesofbukhara">Indian,Asian</string>
+    <string name="specialdiets">SPECIAL DIETS</string>
+    <string name="Specialdietsofbukhara">Vegetarian Friendly, Vegan Options, Gluten Free Options</string>
+    <string name="meals">MEALS</string>
+    <string name="mealsofbukhara">Lunch,Dinner</string>
+    <string name="features">FEATURES</string>
+    <string name="featuresofbukhara">Parking Available, Valet Parking, Serves Alcohol, Full Bar, Seating, Validated Parking, Highchairs Available, Wheelchair Accessible, Accepts Credit Cards, Table Service</string>
+
+    <string name="sagarratna">Sagar Ratna</string>
+    <string name="sagartext">Sagar Ratna started its first branch in Defence Colony in 1986 and since then it has moved on to become the most preferred destination for South Indian cuisines across the country.Having won numerous awards in the Hospitality industry in various categories over the years, Sagar Ratna continues to delight its customers with its authentic South Indian food cooked fresh many times a day.</string>
+    <string name="Aboutsagar">About</string>
+    <string name="addressofsagar">Sagar Ratna Chaudhary Balbir Singh Marg,New Delhi 110063 India</string>
+    <string name="cuisinessagar">CUISINES</string>
+    <string name="cuisinesofsagar">Indian,Asian</string>
+    <string name="specialdietssagar">SPECIAL DIETS</string>
+    <string name="Specialdietsofsagar">Vegetarian Friendly, Vegan Options, Gluten Free Options</string>
+    <string name="mealssagar">MEALS</string>
+    <string name="mealsofsagar">Lunch,Dinner,Brunch,After-hours</string>
+    <string name="featuressagar">FEATURES</string>
+    <string name="featuresofsagar">Delivery, Takeout, Seating, Table Service</string>
+
+    <string name="indian">Indian Acient</string>
+    <string name="indiantext">Showcasing inventive Indian cuisine and featured in the list of Asia’s 50 Best Restaurants</string>
+    <string name="Aboutindian">About</string>
+    <string name="addressofindian">The Lodhi-Lodhi Road,New Delhi 110065 India </string>
+    <string name="phoneofindian">   +91 11 6617 5151</string>
+    <string name="PRICERANGEofindian">PRICE RANGE</string>
+    <string name="priceofindian">₹5,000 for two people (approx.) Without alcohol
+                                 ₹475 for a pint of beer (approx.)</string>
+    <string name="cuisinesindian">CUISINES</string>
+    <string name="cuisinesofindian">Indian,Asian</string>
+    <string name="specialdietsofindian">SPECIAL DIETS</string>
+    <string name="Specialdietsofindian">Vegetarian Friendly, Vegan Options, Gluten Free Options</string>
+    <string name="mealsindian">MEALS</string>
+    <string name="mealsofindian">Lunch,Dinner</string>
+    <string name="featuresindian">FEATURES</string>
+    <string name="featuresofindian">Reservations, Outdoor Seating, Private Dining, Seating, Parking Available, Validated Parking, Valet Parking, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Full Bar, Accepts Credit Cards, Table Service</string>
+
+
+    <string name="karim">Karims Kitchen</string>
+    <string name="karimtext">It is popularity surpassing the boundaries of state, culture and ethnicity - Karims stands tall and firm as an important cornerstone of Delhis culinary heritage! Authentic Mughlai dishes, served by the descendants of the royal cook of Mughal dynasty, act as a portal to the years of old. In times of expensive and showy dining, Karims maintains reasonable pricing and refuses to budge from their image as the commoners royal diner! less</string>
+    <string name="Aboutkarim">About</string>
+    <string name="addressofkarim">16 Matia Mahal Bazar, Near Jama Masjid | Jama Masjid, New Delhi 110006, India (Chandni Chowk)</string>
+    <string name="phoneofkarim">    +91 11 2326 4981</string>
+    <string name="PRICERANGEkarim">PRICE RANGE</string>
+    <string name="priceofkarim">₹374 - ₹747</string>
+    <string name="cuisineskarim">CUISINES</string>
+    <string name="cuisinesofkarim">Mughlai,North-Indian,Rolls</string>
+    <string name="specialdietskarim">SPECIAL DIETS</string>
+    <string name="Specialdietsofkarim">Chicken Jahangir, Mutton Qurma, Mutton Jahangiri, Karim Roll, Reshmi Seekh Kebab, Badam Pasanda</string>
+    <string name="mealskarim">MEALS</string>
+    <string name="mealsofkarim">Breakfast,Home Delivery,Indoor Seating</string>
+
+    //HOTELS
+    <string name="crowne">Crowne Plaza</string>
+    <string name="aboutcrowne">About</string>
+    <string name="crownetext">Crowne Plaza New Delhi Mayur Vihar Noida is a 5-star property located ideally with close proximity to business as well as shopping destinations in New Delhi. The hotel features a business centre, spa and outdoor pool.
+All the contemporary rooms feature floor-to-ceiling windows and in-room amenities like LCD TV, free Wi-Fi, minibar, tea/coffee maker, work desks and en-suite with walk-in rainshower.</string>
+    <string name="addresscrowne">3B Mayur Vihar, District Centre, 110091, Delhi, India</string>
+    <string name="nearbyaddressofcrowne">Akshardham Temple is about a mile and nearest metro station is a six-minute walk from Crowne Plaza New Delhi Mayur Vihar Noida. Humayuns Tomb located about eight miles away can also be visited.</string>
+    <string name="phoneofcrowne">    +91 011 4488 4488</string>
+    <string name="PRICERANGEcrowne">PRICE RANGE</string>
+    <string name="priceofcrowne">₹2,886 per room</string>
+    <string name="viewcrowne">View Deal >>>></string>
+
+    <string name="lemon">Lemon Tree  Primere</string>
+    <string name="aboutlemon">About</string>
+    <string name="lemontext">Ideally situated for corporate, layover and leisure travellers, Lemon Tree Premier Delhi Airport provides comfortable accommodation matched with modern amenities and excellent customer service.
+The rooms at this 4-star property are equipped with air-conditioning, flat-screen TV, DVD player, work desk, in-room safe, tea/coffee maker, plush bedding and en suite bathroom.</string>
+    <string name="addresslemon">3Asset No. 6, Aerocity Hospitality District, Indira Gandhi International Airport, 110037, Delhi, India</string>
+    <string name="nearbyaddressoflemon">Delhi City Centre and Gurgaon City Centre are accessible in a thirty minute drive.</string>
+    <string name="phoneoflemon">    +91 011 4477 8488</string>
+    <string name="PRICERANGElemon">PRICE RANGE</string>
+    <string name="priceoflemon">₹2,337 per room</string>
+    <string name="viewlemon">View Deal >>>></string>
+
+    //Map
+    <string name="api_key">AIzaSyAK6neHdi0lx48k4nbsHyxPbb1Ut3LPCHM</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="title_activity_rajasthan">Rajasthan</string>
+
+</resources>

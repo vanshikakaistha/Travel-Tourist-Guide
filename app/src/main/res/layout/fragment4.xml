@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#DDC1ED"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtcrowne"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_marginStart="100dp"
+                android:fontFamily="@font/aref_ruqaa"
+                android:text="@string/crowne"
+                android:textColor="#2A0043"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/crowne" />
+
+            <TextView
+                android:id="@+id/txtaboutofcrowne"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/About"
+                android:textColor="#010A4A"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtaboutinfocrowne"
+                android:layout_width="match_parent"
+                android:layout_height="146dp"
+                android:layout_alignParentBottom="true"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/crownetext"
+                android:textColor="#190029"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtlocationofcrowne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:text="@string/addresscrowne"
+                android:textColor="#10013C"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_baseline_location_on_24" />
+            <TextView
+                android:id="@+id/txtlocationcrowne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:text="@string/nearbyaddressofcrowne"
+                android:layout_marginTop="8dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:textColor="#10013C"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_nearby" />
+
+            <TextView
+                android:id="@+id/txtphoneofcrowne"
+                android:layout_width="405dp"
+                android:layout_height="34dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="5dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:gravity="center|start"
+                android:text="@string/phoneofcrowne"
+                android:textColor="#10013C"
+                app:drawableStartCompat="@drawable/ic_baseline_call_24" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp">
+
+
+                <TextView
+                    android:id="@+id/txtpriceofcrowne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="74dp"
+                    android:layout_marginBottom="17dp"
+                    android:layout_toStartOf="@+id/txtpricerangeofcrowne"
+                    android:text="@string/PRICERANGEcrowne"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtpricerangeofcrowne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginBottom="17dp"
+                    android:text="@string/priceofcrowne"
+                    android:textColor="#10013C" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/viewdeal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DDC1ED"
+                android:text="@string/viewcrowne"
+                android:textColor="#10013C"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            //lemon
+            <TextView
+                android:id="@+id/txtlemon"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/aref_ruqaa"
+                android:text="@string/lemon"
+                android:textColor="#2A0043"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageViewlemon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/lemon" />
+
+            <TextView
+                android:id="@+id/txtaboutoflemon"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/About"
+                android:textColor="#010A4A"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtaboutinfolemon"
+                android:layout_width="match_parent"
+                android:layout_height="146dp"
+                android:layout_alignParentBottom="true"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/lemontext"
+                android:textColor="#190029"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtlocationoflemon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:text="@string/addresslemon"
+                android:textColor="#10013C"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_baseline_location_on_24" />
+            <TextView
+                android:id="@+id/txtlocationlemon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:text="@string/nearbyaddressoflemon"
+                android:layout_marginTop="8dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:textColor="#10013C"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_nearby" />
+
+            <TextView
+                android:id="@+id/txtphoneoflemon"
+                android:layout_width="405dp"
+                android:layout_height="34dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="5dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:gravity="center|start"
+                android:text="@string/phoneofcrowne"
+                android:textColor="#10013C"
+                app:drawableStartCompat="@drawable/ic_baseline_call_24" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp">
+
+
+                <TextView
+                    android:id="@+id/txtpriceoflemon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="74dp"
+                    android:layout_marginBottom="17dp"
+                    android:layout_toStartOf="@+id/txtpricerangeoflemon"
+                    android:text="@string/PRICERANGElemon"
+                    android:textColor="#10013C" />
+
+                <TextView
+                    android:id="@+id/txtpricerangeoflemon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginBottom="17dp"
+                    android:text="@string/priceoflemon"
+                    android:textColor="#10013C" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/viewdeallemon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/viewlemon"
+                android:background="#DDC1ED"
+                android:textColor="#10013C"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
